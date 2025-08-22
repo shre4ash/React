@@ -6,8 +6,14 @@ import profilePic from './assets/profile.png'
 function App() {
  
 
-  return (
- <Card></Card>   
+  return (<>
+   <Card>
+    </Card>
+    <Card>
+      
+    </Card>
+       </>
+
   )
 }
 

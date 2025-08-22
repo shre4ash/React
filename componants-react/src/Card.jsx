@@ -4,12 +4,12 @@ function Card(){
 
     return(
         <div className="card">
-           <img src={profilePic}  alt="Profile picture" 
+           <img className="card-image" src={profilePic}  alt="Profile picture" 
            style={{ width: '100', height:'100px'}} ></img>
-           <h2>
-            Bro code 
+           <h2 className="card-title">
+            SHREYASH 
            </h2>
-           <p>I make websites and play games</p>
+           <p className="card-text">I make websites and play games</p>
         </div>
     );
 }
