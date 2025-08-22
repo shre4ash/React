@@ -1,8 +1,11 @@
+import profilePic from './assets/profile.png'
+
 function Card(){
 
     return(
         <div className="card">
-           <img src=""  alt="Profile picture"></img>
+           <img src={profilePic}  alt="Profile picture" 
+           style={{ width: '100', height:'100px'}} ></img>
            <h2>
             Bro code 
            </h2>
